@@ -133,6 +133,7 @@ a{
     font-style: italic;
     font-weight: bolder;
     font-family: fantasy;
+    user-select: none;
 }
 /* main-section */
 .main{
