@@ -221,6 +221,7 @@ a{
     justify-content: space-between;
     width: 95%;
     height: 60px;
+    font-size: 20px;
 }
 @media (max-width:991px) {
     .main .container .links{
@@ -709,7 +710,7 @@ a{
     position: relative;
 }
 .resume .in-me .edu .edu-me li h3::before{
-    content: "1";
+    content: "</>";
     width: 30px;
     height: 30px;
     background-color: var(--main-color);
@@ -747,6 +748,9 @@ a{
 }
 .resume .skils .container .box{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 @media (max-width:767px) {
     .resume .skils .container .box{
@@ -754,8 +758,11 @@ a{
     }
 }
 .resume .skils .container .box .skil h3{
-    font-size: 10px;
+    font-size: 15px;
     color: white;
+}
+.resume .skils .container .box .skil h3 span{
+    color: var(--main-color);
 }
 .resume .skils .container .box .skil .bar{
     width: 90%;
