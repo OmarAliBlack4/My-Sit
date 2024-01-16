@@ -315,6 +315,22 @@ a{
 .main .container .links .manu .pages a:hover{
     color: var(--main-color);
 }
+.main .container .mobile-cv{
+    display: none;
+    position: absolute;
+    bottom: 25%;
+    background-color:#0c3a5e;
+    padding: 7px;
+    border-radius: 15px;
+}
+.main .container .mobile-cv a{
+    color: white;
+}
+@media (max-width:991px) {
+    .main .container .mobile-cv{
+        display: block;
+    }
+}
 /* portfolio */
 /* .portfolio .container .work-list{
     display: flex;
